@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE html> 
 <html lang="id">
 <head>
   <meta charset="UTF-8">
@@ -23,8 +23,15 @@
     .btn-submit {
       width: 100%; /* tombol full lebar */
       padding: 12px;
-      font-size: 20px;
+      font-size: 16px;
       font-weight: bold;
+    }
+    /* Tambahan untuk spasi vertikal */
+    .form-wrapper form .col-12 {
+      margin-bottom: 25px; /* jarak antar field */
+    }
+    .form-label {
+      margin-bottom: 10px; /* jarak label ke input */
     }
   </style>
 </head>
@@ -78,7 +85,7 @@
         </select>
       </div>
 
-      <div class="col-12 mt-3">
+      <div class="col-12">
         <button type="submit" class="btn btn-success btn-submit">Kirim</button>
       </div>
     </form>
